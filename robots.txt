@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fixguys1.github.io/letradeley/sitemap.xml

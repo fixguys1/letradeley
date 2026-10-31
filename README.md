@@ -1,5 +1,5 @@
-# Letra de Ley
+# Letra de Ley · web pública
 
-Tests de oposiciones verificados artículo por artículo.
+Tests de oposiciones verificados artículo por artículo: https://fixguys1.github.io/letradeley/
 
-La web está en preparación.
+Esta web se genera automáticamente desde el repositorio privado de la empresa. No la edites a mano: los cambios se perderían en la siguiente publicación.
