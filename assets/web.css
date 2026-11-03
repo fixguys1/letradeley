@@ -194,8 +194,9 @@ blockquote footer { margin-top: 6px; font: 700 13px/1.4 var(--sans); font-style:
 .pie-marca .marca { font-size: 22px; }
 .pie-lema { margin: 8px 0 0; color: var(--text); font-size: 16px; }
 .legal { grid-area: legal; display: flex; flex-wrap: wrap; gap: 0 4px; margin: 0 -10px; }
-.legal a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 10px; color: var(--text); font-size: 15px; text-decoration: none; border-radius: 8px; transition: background-color var(--t) var(--ease); }
-.legal a:hover { background: color-mix(in srgb, var(--ink) 7%, transparent); text-decoration: underline; }
+.redes { display: flex; flex-wrap: wrap; gap: 0 4px; margin: 10px -10px 0; }
+.legal a, .redes a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 10px; color: var(--text); font-size: 15px; text-decoration: none; border-radius: 8px; transition: background-color var(--t) var(--ease); }
+.legal a:hover, .redes a:hover { background: color-mix(in srgb, var(--ink) 7%, transparent); text-decoration: underline; }
 .pie-letra { grid-area: letra; padding-top: 20px; border-top: 1px solid var(--line); }
 .pie-letra p { margin: 0 0 6px; max-width: 72ch; }
 
