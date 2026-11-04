@@ -139,9 +139,10 @@ blockquote footer { margin-top: 6px; font: 700 13px/1.4 var(--sans); font-style:
 .leyes { list-style: none; padding: 0; margin: -4px 0 16px; display: flex; flex-wrap: wrap; gap: 6px; }
 .leyes li { font-size: 14px; font-weight: 600; color: var(--ink); background: var(--surface-2); border-radius: 8px; padding: 3px 9px; }
 .pack .fila { margin-top: auto; padding-top: 18px; border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-.importe { display: flex; align-items: baseline; gap: 10px; margin: 0; }
-.precio { font: 800 32px/1 var(--sans); color: var(--ink); font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
-.luego { color: var(--muted); font-size: 15px; }
+.importe { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 10px; row-gap: 4px; margin: 0; }
+.precio { font: 800 32px/1 var(--sans); color: var(--ink); font-variant-numeric: tabular-nums; letter-spacing: -.01em; white-space: nowrap; }
+.luego { color: var(--muted); font-size: 15px; white-space: nowrap; }
+.iva { flex-basis: 100%; color: var(--muted); font-size: 14px; }
 .pack .btn { min-width: 150px; }
 .garantias { margin: 28px 0 0; display: flex; flex-wrap: wrap; gap: 10px 32px; font-size: 16px; color: var(--text); }
 .garantias b { color: var(--ink); }
