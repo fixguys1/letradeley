@@ -4,6 +4,7 @@
   --line: #dcd8cf; --primary: #1d3a7a; --primary-hover: #152c5f; --primary-ink: #ffffff; --accent: #b4540c;
   --ok: #17803d; --ok-bg: #e7f5ec; --ok-text: #146c34;
   --marca-bg: #1b2440; --marca-text: #f7f6f2; --marca-muted: #c9cedb; --marca-accent: #f0a04b;
+  --logo-bg: #1b2440; --logo-fg: #f7f6f2; /* logotipo: § en papel sobre tinta, igual en claro y en oscuro (DESIGN.md → Logotipo) */
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Noto Serif", "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --radius: 16px; --radius-btn: 12px;
@@ -57,7 +58,7 @@ img { max-width: 100%; height: auto; display: block; }
 .cab { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 90%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
 .cab .env { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 64px; }
 .marca { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; text-decoration: none; color: var(--ink); font: 700 20px/1 var(--serif); white-space: nowrap; }
-.logo { flex: none; width: 34px; height: 34px; border-radius: 10px; background: var(--ink); color: var(--bg); display: inline-grid; place-items: center; font: 700 21px/1 var(--serif); }
+.logo { flex: none; width: 34px; height: 34px; border-radius: 10px; background: var(--logo-bg); color: var(--logo-fg); display: inline-grid; place-items: center; font: 700 21px/1 var(--serif); }
 .cab nav { display: flex; gap: 2px; }
 .cab nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px; border-radius: 10px; text-decoration: none; color: var(--text); font-weight: 600; font-size: 15px; white-space: nowrap;
   transition: background-color var(--t) var(--ease), color var(--t) var(--ease); }
@@ -179,7 +180,7 @@ blockquote footer { margin-top: 6px; font: 700 13px/1.4 var(--sans); font-style:
 
 /* 404 */
 .error h1 { margin-bottom: 12px; }
-.sello-error { margin: 0 auto 20px; width: 64px; height: 64px; border-radius: 16px; background: var(--ink); color: var(--bg); display: grid; place-items: center; font: 700 38px/1 var(--serif); }
+.sello-error { margin: 0 auto 20px; width: 64px; height: 64px; border-radius: 16px; background: var(--logo-bg); color: var(--logo-fg); display: grid; place-items: center; font: 700 38px/1 var(--serif); }
 
 /* Legal */
 .legal-texto h1 { font-size: clamp(32px, 4.2vw, 42px); }
